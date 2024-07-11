@@ -6,5 +6,5 @@ export const Logo = () => {
         left: '4px',
         bottom: '4px',
     };
-    return <img src={'/assets/logo-1.png'} style={style} />;
+    return <img src={'/test/assets/logo-1.png'} style={style} />;
 };
