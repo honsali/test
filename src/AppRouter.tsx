@@ -1,6 +1,6 @@
 import { CompanyPage } from 'company/CompanyPage';
 import { ConceptPage } from 'concept/ConceptPage';
-import { ContactPage } from "contact/ContactPage";
+import { ContactPage } from 'contact/ContactPage';
 import { ExperiencePage } from 'experience/ExperiencePage';
 import { HomePage } from 'home/HomePage';
 import Layout from 'layout/Layout';
@@ -12,7 +12,7 @@ import { ReferencePage } from 'reference/ReferencePage';
 
 export const AppRouter = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/test">
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<HomePage />} />
